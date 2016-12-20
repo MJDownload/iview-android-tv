@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/iview/iview.iml" filepath="$PROJECT_DIR$/iview/iview.iml" />
       <module fileurl="file://$PROJECT_DIR$/iview-android-tv.iml" filepath="$PROJECT_DIR$/iview-android-tv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sbs/sbs.iml" filepath="$PROJECT_DIR$/sbs/sbs.iml" />
     </modules>
   </component>
 </project>
