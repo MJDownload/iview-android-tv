@@ -1,4 +1,4 @@
-package io.github.nextux.base.activities;
+package io.github.nextux.iview.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
