@@ -15,7 +15,7 @@ import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 
-import io.github.nextux.base.content.RecommendationBuilder;
+import io.github.nextux.iview.content.RecommendationBuilder;
 import io.github.nextux.iview.R;
 import io.github.nextux.iview.activities.DetailsActivity;
 import io.github.nextux.iview.api.EpisodeModel;

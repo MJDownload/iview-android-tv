@@ -9,7 +9,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import io.github.nextux.base.api.EpisodeBaseModel;
+import io.github.nextux.iview.api.EpisodeBaseModel;
 
 public class EpisodeModel extends EpisodeBaseModel {
     private static final String TAG = "EpisodeModel";

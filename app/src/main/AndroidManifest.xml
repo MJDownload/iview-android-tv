@@ -1,9 +1,9 @@
 <manifest
     package="io.github.nextux.iview"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="1"
-    android:versionName="1.0.0">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-feature android:name="android.software.leanback" android:required="true" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="ANDROID.PERMISSION.RECEIVE_BOOT_COMPLETED"/>
@@ -61,7 +61,7 @@
             android:enabled="true"/>
 
         <provider
-            android:name="io.github.nextux.base.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
+            android:name="io.github.nextux.iview.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
             android:authorities="io.github.nextux.iview.recommendation"
             android:exported="true"/>
 

@@ -36,18 +36,18 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import io.github.nextux.base.R;
-import io.github.nextux.base.Utils;
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.api.PlayHistory;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.iview.R;
+import io.github.nextux.iview.Utils;
+import io.github.nextux.iview.api.EpisodeBaseModel;
+import io.github.nextux.iview.api.PlayHistory;
+import io.github.nextux.iview.content.ContentManagerBase;
 import io.github.nextux.iview.content.ContentManager;
-import io.github.nextux.base.player.DurationLogger;
-import io.github.nextux.base.player.EventLogger;
-import io.github.nextux.base.player.HlsRendererBuilder;
-import io.github.nextux.base.player.VideoPlayer;
-import io.github.nextux.base.views.PlaybackControls;
-import io.github.nextux.base.views.VideoPlayerView;
+import io.github.nextux.iview.player.DurationLogger;
+import io.github.nextux.iview.player.EventLogger;
+import io.github.nextux.iview.player.HlsRendererBuilder;
+import io.github.nextux.iview.player.VideoPlayer;
+import io.github.nextux.iview.views.PlaybackControls;
+import io.github.nextux.iview.views.VideoPlayerView;
 
 /**
  * An activity that plays media using {@link VideoPlayer}.
@@ -56,8 +56,8 @@ public class VideoPlayerActivity extends BaseActivity implements SurfaceHolder.C
         AudioCapabilitiesReceiver.Listener {
 
     private static final String TAG = "PlayerActivity";
-    private static final String MEDIA_SESSION_TAG = "io.github.nextux.base.MEDIA_SESSION_TAG";
-    private static final String RESUME_POSITION = "io.github.nextux.base.RESUME_POSITION";
+    private static final String MEDIA_SESSION_TAG = "io.github.nextux.iview.MEDIA_SESSION_TAG";
+    private static final String RESUME_POSITION = "io.github.nextux.iview.RESUME_POSITION";
 
     private static final CookieManager defaultCookieManager;
 

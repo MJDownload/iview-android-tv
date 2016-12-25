@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import java.util.Map;
 
-import io.github.nextux.base.api.HttpApiBase;
+import io.github.nextux.iview.api.HttpApiBase;
 import io.github.nextux.iview.BuildConfig;
 
 abstract class IViewApi extends HttpApiBase {

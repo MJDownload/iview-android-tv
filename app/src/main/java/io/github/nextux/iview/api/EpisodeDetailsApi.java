@@ -12,7 +12,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.github.nextux.base.api.EpisodeBaseModel;
+import io.github.nextux.iview.api.EpisodeBaseModel;
 import io.github.nextux.iview.content.ContentManager;
 
 public class EpisodeDetailsApi extends IViewApi {
