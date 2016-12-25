@@ -20,4 +20,4 @@ For Android TV versions 6 and above, you will need to check the permissions for 
 &#35;SIDELOADTAG
 ------------
 You will need to install &#35;SIDELOADTAG or compatible app such as TV App Repo first, and then use the following tags to install directly on your TV.
-- iview120
+- iview122
