@@ -7,4 +7,5 @@
 /captures
 /cache
 *.swp
+*.iml
 app.properties
