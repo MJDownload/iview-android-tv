@@ -34,7 +34,7 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.5.0'
     compile 'jp.wasabeef:picasso-transformations:1.0.5'
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.2.3'
-    compile 'com.google.android.exoplayer:exoplayer:r1.4.2'
+    compile 'com.google.android.exoplayer:exoplayer:r1.5.13'
     compile 'com.google.code.gson:gson:2.4'
 
     annotationProcessor 'com.raizlabs.android:DBFlow-Compiler:2.2.1'
