@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.3'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "io.github.nextux.abciview"
         minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
-        versionName "1.2.3"
+        versionName "1.2.4"
     }
     buildTypes {
         release {
@@ -32,14 +32,14 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:recyclerview-v7:23.0.0'
-    compile 'com.android.support:leanback-v17:23.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:leanback-v17:25.0.0'
     compile 'com.squareup.picasso:picasso:2.6.0-20170104.232308-35'
     compile 'com.squareup.okhttp:okhttp:2.5.0'
     compile 'jp.wasabeef:picasso-transformations:1.0.5'
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.2.3'
     compile 'com.google.android.exoplayer:exoplayer:r1.4.2'
-    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.google.code.gson:gson:2.7'
 
     annotationProcessor 'com.raizlabs.android:DBFlow-Compiler:2.2.1'
     compile "com.raizlabs.android:DBFlow-Core:2.2.1"

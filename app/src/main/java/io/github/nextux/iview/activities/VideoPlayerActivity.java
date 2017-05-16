@@ -499,4 +499,11 @@ public class VideoPlayerActivity extends BaseActivity implements SurfaceHolder.C
             player.blockingClearSurface();
         }
     }
+
+    @Override
+    public boolean onSearchRequested() {
+        startActivity(new Intent(this, SearchActivity.class));
+        return true;
+    }
+
 }
